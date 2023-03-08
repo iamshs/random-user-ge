@@ -6,6 +6,8 @@ emitter.on("belling" , (period) =>{
   console.log(`bell ringing because ${period} class has ended `);
 })
 
+// raise an event
+
 // emitter.emit("belling")
 
 // setTimeout(()=>{    
